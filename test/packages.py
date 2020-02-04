@@ -6,13 +6,13 @@ length = int(raw_input("Enter length of box:"))
 weight = int(raw_input("Enter weight of box:"))
 
 
-#amke costs varaiables
+# Make costs varaiables
 sc = '$5'
 mc = '$7.50'
 lc = '$8.50'
 
 
-#if statments to decide cost of package
+#if statements to decide cost of package
 
 if height <= 150 and breadth <= 300 and length <= 200 and weight <= 25:
   print 'Cost for package is' + ' ' + sc
@@ -35,11 +35,3 @@ elif length > 400:
 elif weight > 25:
   print 'The package must be under 25kg'
 
-
-
-
-
-
-
-
-  

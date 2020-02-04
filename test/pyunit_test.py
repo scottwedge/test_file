@@ -1,10 +1,10 @@
-import unnitest
+import unittest
 import packages
 
-class packagesTestCase(unnitest.TestCase):
+class packagesTestCase(unittest.TestCase):
 
   def test_one(self):
-    self.assertTrue(package(140,140,140,20), '5')
+    self.assertEqual(packages(140,140,140,20), '5')
 
 
 

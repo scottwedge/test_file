@@ -1,0 +1,4 @@
+# Template of common .gitignore file settings
+
+*.pyc
+__pycache__/
